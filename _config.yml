@@ -93,7 +93,7 @@ disqus_short_name: basetta
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-3020776-9
 
 # Facebook Like
 facebook_like: true
