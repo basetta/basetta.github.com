@@ -7,11 +7,11 @@ categories: Personal
 ---
 
 It has been nearly four years since I last posted. Quite a lot.
-Anyhow, now I am back on online thanks to [Octopress](http://octopress.org/) and Github pages.
+Anyhow, now I am back online thanks to [Octopress](http://octopress.org/) and Github pages.
 
 I'll have more to do:
 
-* write a post catch up
+* write a catch up post
 * importing the old posts parked [here](http://ricettebimby.pupazzo.org) after my previous Django blog
 abandoned me.
 * personalized the Octopress default template.

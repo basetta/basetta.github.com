@@ -5,7 +5,7 @@ date: 2012-05-12 10:00
 comments: true
 categories: Git
 ---
-At work we wanted to extract from a branch a subdirectory containing a specific feature that had to be use from everyone in the team.
+At work we wanted to extract from a branch a subdirectory containing a specific feature that had to be used from everyone in the team.
 
 Just for sake of example, let's define the terms of our problem.
 Our repository (MAIN) structure looks like:
