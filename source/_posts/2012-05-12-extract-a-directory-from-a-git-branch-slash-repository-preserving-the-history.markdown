@@ -20,6 +20,7 @@ MAIN/
 
 Our goal is to extract the libA contained in the branch FTR-B in its own branch called FTR-A.
 
+
 If you are not interested in preserving the history the task is quite easy. **Git checkout** is our friend in this case.
 
 {% codeblock %}
