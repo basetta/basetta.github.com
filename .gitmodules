@@ -1,0 +1,3 @@
+[submodule ".themes/basetta_theme"]
+	path = .themes/basetta_theme
+	url = https://github.com/basetta/basetta_theme.git
