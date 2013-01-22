@@ -1,0 +1,34 @@
+---
+comments: true
+date: 2007-02-13 07:00:00
+layout: post
+slug: None
+title: New Cold Cathode Bulbs Can Be Dimmed, Switched
+wordpress_id: 48
+---
+
+![](/images/posts/ccf.jpg)
+
+
+>
+
+>
+> **Cold cathodes** are the new kid of the light bulb world. Until recently, cold cathodes lights were only available for recess lighting. But what is a cold cathode? In most fluorescent bulbs, a cathode is heated to produce light, but with cold cathodes the cathode operates at the ambient room temperature. The bulbs offer several advantages: they have a very long lamp life, they're dimmable, and they can used in situations where the bulb is turned off and on frequently (even in flashing signs). The non-profit Energy Federation Incorporated, offers cold cathode bulbs that are rated at 5 watts, making them suitable replacement for 20-25 watt incandescent bulbs. They are "wet rated", meaning they can be exposed to the elements, and they are able to be used on a dimming circuit.
+>
+>
+
+
+
+
+
+**Links**
+
+
+
+
+  * [Tech Details](http://en.wikipedia.org/wiki/Cold_cathode)
+
+
+  * [treehugger.com](http://www.treehugger.com/)
+
+
