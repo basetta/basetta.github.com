@@ -1,7 +1,11 @@
 require 'time'
 
+repo_url        = "git@github-basetta:basetta/basetta.github.com.git"
+deploy_dir      = "output"   # deploy directory (for Github pages deployment)
+deploy_branch   = "master"
+
 task :clean do
-  sh 'rm -rf output'
+  rm_rf deploy_dir
 end
 
 task :build => [:clean] do
@@ -9,7 +13,18 @@ task :build => [:clean] do
 end
 
 task :deploy => [:build] do
-  sh 'rsync -cavzh --delete --stats --progress output/ donmelton.com:donmelton.com && open http://donmelton.com/'
+  cd "#{deploy_dir}" do
+    system "git init"
+    system "git add ."
+    system "git add -u"
+    system "git remote add origin #{repo_url}"
+    puts "\n## Commiting: Site updated at #{Time.now.utc}"
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -m \"#{message}\""
+    puts "\n## Pushing generated #{deploy_dir} website"
+    system "git push origin #{deploy_branch} --force"
+    puts "\n## Github Pages deploy complete"
+  end
 end
 
 task :stage => [:clean] do

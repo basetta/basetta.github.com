@@ -42,7 +42,7 @@
 <footer id="addendum">
 <div class="sleeve">
 <% @@copyright ||= copyright_year(@copyright['starting_year']) + ' ' + strip_html(markdown_inline(@copyright['owner'])) %>
-<p id="copyright">Copyright &copy; <%= @@copyright %></p>
+<p id="copyright">Copyright &copy; <%= @@copyright %> - Thanks to <a href="http://donmelton.com/">Don Melton</a> for <a href="https://github.com/donmelton/magneto">Magneto</a></p>
 </div>
 </footer>
 <% if page_url(@item) == '/' %>
