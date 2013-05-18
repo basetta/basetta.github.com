@@ -1,0 +1,36 @@
+---
+comments: true
+published: 2008-09-17 12:34:19
+layout: post
+slug: None
+title: Escape leaving no trace
+wordpress_id: 87
+---
+
+Sometimes I am wondering how easy it would be escape leaving no trace. A lot of people I know do not have a single clue where to find me if I am not using my mobile, email, facebook and so on anymore.
+
+In order to disapear i jotted down a todolist:
+
+
+
+
+  * stop using mobile phone
+
+
+  * stop using Credit Card and so on
+
+
+  * change addresse
+
+
+  * change work
+
+
+  * try to delete all the personal information online available
+
+
+  * find a fake document :) in order to take an airplane under a fake name.
+
+
+
+That's it. Simple, isn't it ? Only to find a fake document could be problematic :)

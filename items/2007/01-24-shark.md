@@ -1,0 +1,37 @@
+---
+comments: true
+published: 2007-01-24 15:16:00
+layout: post
+slug: None
+title: Prehistoric Japan Shark Just Discovered
+wordpress_id: 51
+---
+
+{% img /images/posts/sharkjapan.jpg %}
+
+A species of shark rarely seen alive because its natural habitat is **600** meters (2,000 ft) or more under the sea was captured on film by staff at a Japanese marine park this week.
+
+
+The **Awashima Marine Park** in Shizuoka, south of Tokyo, was alerted by a fisherman at a nearby port on Sunday that he had spotted an odd-looking eel-like creature with a mouthful of needle-sharp teeth.
+
+
+
+The shark appeared to be in poor condition when park staff moved it to a seawater pool where they filmed it swimming and opening its jaws.
+
+
+The shark died a few hours after being caught. **Frilled sharks**, which feed on other sharks and sea creatures, are sometimes caught in the nets of trawlers but are rarely seen alive.
+
+
+
+
+**Links:**
+
+
+
+
+  * [Spiegel Online - German ](http://www.spiegel.de/wissenschaft/natur/0,1518,461911,00.html)
+
+
+  * [CNN](http://www.cnn.com/2007/TECH/science/01/24/shark.japan.reut/index.html)
+
+

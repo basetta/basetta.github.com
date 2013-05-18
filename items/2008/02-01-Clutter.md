@@ -1,0 +1,22 @@
+---
+comments: true
+published: 2008-02-01 07:00:00
+layout: post
+slug: None
+title: 'What is Clutter ? '
+wordpress_id: 74
+---
+
+A picture is worth a thousand words.
+
+
+
+
+
+
+[![A cluttered Desk (general overview)](http://farm3.static.flickr.com/2364/2233867159_6d9f27c9f8_m.jpg)](http://www.flickr.com/photos/basiglio/2233867159/)
+
+[![A detail of my cluttered Desk](http://farm3.static.flickr.com/2132/2234656080_a805448d2d_m.jpg)](http://www.flickr.com/photos/basiglio/2234656080/)
+
+
+

@@ -1,0 +1,67 @@
+---
+comments: true
+published: 2007-11-22 07:00:00
+layout: post
+slug: None
+title: Google Adsense sucks
+wordpress_id: 34
+---
+
+
+OK, I'm using some Google tools and I find them very useful, but Google closed my Adsense account unexpectedly.  
+
+Before opening my adsense account - or rather my closed account - I have read a lot of forums, thereby gathering a lot information, in order to avoid being banned.  
+
+I'm sure that I have not clicked on my ads.
+
+
+
+
+
+
+I think the problem was that the pageviews of my gallery changed from 300pv/day to 10000pv/day. A friend of mine has posted some pictures of my gallery on facebook.  
+
+Consequently, I think Google has reckoned that my clicks were only coming from friends of mine.
+
+
+
+
+
+
+OK, maybe this is the truth but I cannot see any illegal behaviour in that. I have some friends reading my blog and then they click on my ads. Why does this matter?
+
+
+
+
+
+
+To go out with a bang the **170$** I have earned so fare have vanished into thin air. In a trice all is gone. Sniff Sniff.
+
+
+
+
+
+
+I have of course protested. But the answer was that they are considering me too dangerous for their interests. Funny I'm a dangerous person. Coooollll. :)
+
+
+
+
+
+
+Therefore, I'm looking for some alternatives. At the moment I'm testing:
+[
+![](http://files.adbrite.com/mb/images/120x60-1-blue.gif)](http://www.adbrite.com/mb/landing_both.php?spid=65976&afb=120x60-1-blue)
+
+
+
+
+[internet
+marketing](http://www.bidvertiser.com)
+
+
+
+[![Earn $$ with WidgetBucks!](http://www.widgetbucks.com/images/referral/logo2.png)](http://www.widgetbucks.com/home.page?referrer=5587005)
+
+
+
