@@ -15,9 +15,16 @@ $accent:        #8b0000
 $gray36:        #5c5c5c
 $gray80:        #cccccc
 $gray90:        #e5e5e5
+$dark1:         #373737
+$dark2:         #212121
 
 body
-  background-color: $dark
+  background: $dark2
+  background: -moz-linear-gradient(top, $dark1, $dark2)
+  background: -webkit-linear-gradient(top, $dark1, $dark2)
+  background: -ms-linear-gradient(top, $dark1, $dark2)
+  background: -o-linear-gradient(top, $dark1, $dark2)
+  background: linear-gradient(top, $dark1, $dark2)
   color: $light
   font-family: $serif
   font-size: 125%
