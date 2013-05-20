@@ -1,38 +1,44 @@
-<aside id="sidebar">
-<section class="panel">
-<p>
-Cucu, I'm <a href="/about/">Basetta</a>. The moniker Basetta derived from the fact the nature does not donate me sideburns.
-Sideburns in Italian are basette and basetta is the singular form.
-</p>
-</section>
-<section class="panel">
-<p>Follow me on <a href="https://twitter.com/basettabz">Twitter</a> and <a href="https://alpha.app.net/basetta">App.net</a>.</p>
-</section>
-<section class="panel">
-<form id="search" action="https://duckduckgo.com/" method="get">
-<input type="hidden" name="sites" value="<%= @config[:search_sites] %>" />
-<label for="search-field">Search for:</label>
-<input type="text" name="q" id="search-field" placeholder="Search" />
-</form>
-</section>
-<%
-posts = sorted_posts.find_all { |item| post_format(item) == 'standard' }
+<aside id="aside-right" class="aside-column offset1 span3">
+    <section class="panel">
+        <p>
+            Cucu, I'm <a href="/about/">Basetta</a>. The moniker Basetta derived from the fact the nature does not donate me sideburns.
+            Sideburns in Italian are basette and basetta is the singular form.
+            <br>
+            Follow me on <a href="https://twitter.com/basettabz">Twitter</a> and <a href="https://alpha.app.net/basetta">App.net</a>.
+        </p>
+    </section>
+    <article class="widget-search-form widget">
+                <header>
+                    <h1>Search</h1>
+                </header>
+                <form action="https://duckduckgo.com/" class="search-form" method="get">
 
-unless posts.empty?
-%>
-<section class="panel">
-<h1>Recent articles</h1>
-<ul>
-<%
-	posts[0..9].each do |item|
-%>
-<li><a href="<%= post_url(item) %>"><%= markdown_inline(item.metadata[:title]) %></a></li>
-<%
-	end
-%>
-</ul>
-</section>
-<%
-end
-%>
+                    <fieldset>
+                    <input type="hidden" name="sites" value="<%= @config[:search_sites] %>" />
+                        <input id="q" name="q" type="text" value="">
+                        <button type="submit">Go</button>
+                    </fieldset>
+                </form>
+    </article>
+    <%
+        posts = sorted_posts.find_all { |item| post_format(item) == 'standard' }
+
+        unless posts.empty?
+    %>
+    <article class="widget-search-form widget">
+                <header>
+                    <h1>Recent Articles</h1>
+                </header>
+        <ul>
+            <%
+                posts[0..9].each do |item|
+            %>
+            <li><a href="<%= post_url(item) %>"><%= markdown_inline(item.metadata[:title]) %></a></li>
+            <%
+                end
+            %>
+        </ul>
+    </article>
+    <% end %>
+
 </aside>

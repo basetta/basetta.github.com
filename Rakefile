@@ -27,6 +27,10 @@ task :deploy => [:build] do
   end
 end
 
+task :test => [:clean] do
+  sh 'cat config.yaml | sed \'s/^\(base_url:\).*$/\1 \/tmp\/output/;s/^\(cdn_url:\).*$/\1 ""/;s/^\(google_analytics_account:\).*$/\1 ""/\' >stage_config.yaml && time magneto --config stage_config.yaml && open /tmp/output/index.html'
+end
+
 task :stage => [:clean] do
   sh 'cat config.yaml | sed \'s/^\(base_url:\).*$/\1 http:\/\/stage.donmelton.com/;s/^\(cdn_url:\).*$/\1 ""/;s/^\(google_analytics_account:\).*$/\1 ""/\' >stage_config.yaml && time magneto --config stage_config.yaml && rsync -cavzh --delete --stats --progress output/ stage.donmelton.com:stage.donmelton.com && open http://stage.donmelton.com/'
 end
