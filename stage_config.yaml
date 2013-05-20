@@ -1,0 +1,13 @@
+base_url: /tmp/output
+cdn_url: "/tmp/output"
+content_width: 640
+copyright: { starting_year: 2012, owner: Patrick Martini }
+description: 'Rants and Raves'
+google_analytics_account: ""
+hidden_files: true
+jquery_version: 1.9.0
+kramdown: { entity_output: symbolic }
+remove_obsolete: true
+search_sites: basetta.pupazzo.org
+title: Basetta's Website
+visible_posts: 5
