@@ -887,3 +887,8 @@ header.post-header h1 {
   margin: 2em 0;
   font-family: Verdana,sans-serif;
 }
+
+.gist-file {
+  font-size: 12px;
+  line-height:13px;
+}
