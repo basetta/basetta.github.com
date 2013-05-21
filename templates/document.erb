@@ -13,7 +13,7 @@
           rel='stylesheet' type='text/css'>
 
     <link href="<%= @config[:cdn_url] %>/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<%= @config[:cdn_url] %>/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="<%= @config[:cdn_url] %>/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="<%= @config[:cdn_url] %>/css/socialicons.css" rel="stylesheet">
     <link href="<%= @config[:cdn_url] %>/css/glyphicons.css" rel="stylesheet">
     <link href="<%= @config[:cdn_url] %>/css/halflings.css" rel="stylesheet">
@@ -35,9 +35,7 @@
 <div class="masthead clearfix">
 
 <!-- The Logo -->
-<section style="float: left;">
-    <a href="index.html"><img id="logo" src="<%= @config[:cdn_url] %>/img/Butch.png" alt="Basetta"></a>
-</section>
+<div id="logo"></div>
 <hgroup id="nameplate">
 <% @@title ||= markdown_inline(@config[:title]) %>
 <h1 id="title"><a href="/" title="Home page"><%= @@title %></a></h1>

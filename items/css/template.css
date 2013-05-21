@@ -111,6 +111,10 @@ body {
 	padding-bottom: 60px;
 }
 
+#title {
+  line-height: 0px;
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
 
@@ -815,18 +819,27 @@ aside.aside-column article.widget header h1 {
 }
 
 #logo {
-  margin: 2px 0  0 10px;
-  height:63px;
-  /*width:324px*/
+  background: url(http://basetta.pupazzo.org/img/Butch.png) no-repeat left center;
+  background-size: 80px 80px;
+  width:80px;
+  height: 80px;
+  float:left;
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #logo {
-    height:47.25px;
-    width: 243px;
+    background: url(http://basetta.pupazzo.org/img/Butch.png) no-repeat center center;
+    background-size: 80px 80px;
+    width: 290px;
   }
- }
+
+  #title {
+    line-height: 31px;
+    text-transform: capitalize;
+  }
+
+}
 
 .glyphicons-showoff i {
   margin-right: 6px;
@@ -853,10 +866,6 @@ aside.aside-column article.widget header h1 {
 #description {
   float: right;
   font-size: 18px;
-  line-height: 0px;
-}
-
-#title {
   line-height: 0px;
 }
 
