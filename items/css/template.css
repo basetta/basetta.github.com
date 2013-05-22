@@ -819,7 +819,7 @@ aside.aside-column article.widget header h1 {
 }
 
 #logo {
-  background: url(http://basetta.pupazzo.org/img/Butch.png) no-repeat left center;
+  background: url(../img/butch.png) no-repeat left center;
   background-size: 80px 80px;
   width:80px;
   height: 80px;
@@ -829,7 +829,7 @@ aside.aside-column article.widget header h1 {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #logo {
-    background: url(http://basetta.pupazzo.org/img/Butch.png) no-repeat center center;
+    background: url(../img/butch.png) no-repeat center center;
     background-size: 80px 80px;
     width: 290px;
   }
