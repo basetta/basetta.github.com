@@ -1,25 +1,39 @@
 <%
-require 'time'
+    require 'time'
 
-render 'document' do
-  render 'post_article', :post => @item do
+    render 'document' do
+        render 'post_article', :post => @item do
 %>
 <%= yield %>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'basettaswebsite'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 <%
-  end
+        end
 
-  posts = sorted_posts
-  item_url = post_url(@item)
-  post_index = posts.find_index { |post| post_url(post) == item_url }
-  previous_post = posts[post_index + 1]
-  next_post = post_index > 0 ? posts[post_index - 1] : nil
+        posts = sorted_posts
+        item_url = post_url(@item)
+        post_index = posts.find_index { |post| post_url(post) == item_url }
+        previous_post = posts[post_index + 1]
+        next_post = post_index > 0 ? posts[post_index - 1] : nil
 
-  unless previous_post.nil? && next_post.nil?
-%>
+        unless previous_post.nil? && next_post.nil?
+    %>
 <nav id="pagination">
-<p id="post-pager"><% unless previous_post.nil? %><a href="<%= post_url(previous_post) %>" title="Previous post">&larr;&nbsp;<%= strip_html(markdown_inline(previous_post.metadata[:title])) %></a><% end %><% unless previous_post.nil? || next_post.nil? %> &middot; <% end %><% unless next_post.nil? %><a href="<%= post_url(next_post) %>" title="Next post"><%= strip_html(markdown_inline(next_post.metadata[:title])) %>&nbsp;&rarr;</a><% end %></p>
+    <p id="post-pager"><% unless previous_post.nil? %><a href="<%= post_url(previous_post) %>" title="Previous post">&larr;&nbsp;<%= strip_html(markdown_inline(previous_post.metadata[:title])) %></a><% end %><% unless previous_post.nil? || next_post.nil? %> &middot; <% end %><% unless next_post.nil? %><a href="<%= post_url(next_post) %>" title="Next post"><%= strip_html(markdown_inline(next_post.metadata[:title])) %>&nbsp;&rarr;</a><% end %></p>
 </nav>
 <%
-  end
-end
+        end
+    end
 %>
