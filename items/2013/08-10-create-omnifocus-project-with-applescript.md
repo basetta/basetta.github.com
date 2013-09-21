@@ -5,7 +5,8 @@ title: Create OmniFocus Project with AppleScript
 
 At work one of my duty is to take care of purchase orders for my team mates. The workflow involve always the same three steps.
 
-Being an Omnifocus user, I wrote a small AppleScript that create those steps for me.
+Being an Omnifocus user, I wrote a small AppleScript that takes as input a purchase description and as output creates
+a main task with three sub tasks in Omnifocus directly.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- Entry point when run
